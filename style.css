@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.pagetop{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* position: relative; */
+    z-index: 4;
+    font-size: 18px;
+    background-color: white;
+    color: #282A35;
+    padding-left: 12px;
+    padding-right: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.pagetop a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.page-right a{
+    width: 5px;
+}
+.ribbon-topnav {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin-left: 3px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+    background-color: white;
+}
+.page-middle a{
+margin-left: 200px;
+}
+.page-left a{
+    width: 120px;
+    margin-right: 15px;
+    padding: 6px;
+}
+
+.logo{
+    width: 70px;
+    margin: 10px 10px;
+
+}
+button{
+    border: 0;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    /* background-color: #fff; */
+    font-size: large;
+    border-radius: 50px;
+}
+ .page-right a:hover{
+    background:#04AA6D;
+    border-radius: 25px;
+}
+.page-left a:hover{
+    background:#04AA6D;
+    border-radius: 25px;
+}
+.nav{
+    position: relative;
+    z-index: 2;
+    font-size: 17px;
+    background-color: #282A35;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: inherit;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 15px 9px 15px !important;
+}
+.nav a:hover{
+    background-color: black;
+    border-radius: 25%;
+}
+.nav img{
+    width: 20px;
+    margin-top: 3px;
+}
+.nav a{
+    color: white;
+    font-weight: 700;
+    padding: 3px;
+    margin: 8px;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+.left-sidebar{
+    font-weight: 200;
+    padding-left: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    width: 250px;
+    background-color: #E7E9EB;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+}
+.left-sidebar h2{
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.left-sidebar a{
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.left-sidebar a:hover{
+    background-color: rgb(170, 169, 169);
+}
+.right-sidebar{
+    flex-basis: 15%;
+    position: sticky;
+    align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+    }
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.main{
+    background: #f9f9f9;
+    border: 5px;
+    width: 70%;
+}
+.main h1{
+    padding: 20px;
+    
+}
+.home-btn{
+    padding: 20px;
+}
+.content{
+    height: 17%;
+}
+.content p{
+    padding: 32px;
+}
+.study-btn{
+    /* padding: 30px; */
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* margin-top: 9px; */
+    position: relative;
+    overflow: visible;
+    margin-bottom: 1px;
+}
+.watch-btn{
+    /* padding: 30px; */
+    font-size: 18px;
+    padding-left: 36px;
+    padding-right: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 20px;
+    position: relative;
+    overflow: visible;
+    margin-bottom: 1px;
+}
+.ribbon-vidx {
+    width: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 3px;
+    position: absolute;
+    left: -1px;
+    top: -9px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.bluehost{
+    display: flex;
+padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border: 3px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 728px;
+    aspect-ratio: auto 728 / 90;
+    height: 90px;
+}
+.i-amphtml-layout-size-defined .i-amphtml-fill-content {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
